@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $con = mysqli_connect("localhost", "u962227670_iconist", "Iconist@12", "u962227670_iconist");
+    $con = mysqli_connect("localhost", "", "", "");
     if(isset($_POST['send-msg'])){
         $Name = $_POST['name'];
         $Mobile_Number = $_POST['number'];
